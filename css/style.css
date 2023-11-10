@@ -750,6 +750,8 @@ video {
 
 .conCust {
   border-radius: 0rem !important;
+  padding: 12px 20px !important;
+  border: none !important;
 }
 
 .custList1 input {
@@ -759,4 +761,35 @@ video {
 
 .custList1 select {
   font-size: 13px;
+}
+
+.custTex {
+  font-size: 14px;
+  color: #797979 !important;
+  height: 100px !important;
+  resize: none !important;
+  border-radius: none !important;
+  border: none !important;
+}
+
+.conRadi {
+  border-radius: 0rem !important;
+}
+
+.custBut {
+  background-color: #006db7;
+  border-radius: 3px;
+  color: #fff;
+  border: none;
+  padding: 15px 20px !important;
+  font-size: 14px;
+  border-radius: none !important;
+  border: none !important;
+  transition-duration: 0.4s;
+  transition-property: all;
+}
+
+.custBut:hover {
+  background-color: rgba(0, 0, 0, .70);
+  color: #fff;
 }
