@@ -793,3 +793,26 @@ video {
   background-color: rgba(0, 0, 0, .70);
   color: #fff;
 }
+
+.contCust {
+  font-size: 13px;
+  line-height: 26px;
+}
+
+.benCust {
+  font-size: 14px;
+  color: #18496b;
+}
+
+.righCust {
+  list-style-type: none;
+  padding-left: 0rem;
+}
+
+.righCust li {
+  font-size: 13px;
+}
+
+.righCust li i {
+  color: #18496b;
+}
