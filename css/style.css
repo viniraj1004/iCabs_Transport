@@ -96,29 +96,14 @@ header .header-top {
 }
 
 .headtitle-marg1 {
-  /* margin-left: 16%;
-  width: 450px;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; */
   width: 80% !important;
   margin: auto;
 }
 
 .headtex1 {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
 }
-
-
-/* hr {
-  margin: 0 !important;
-  color: inherit;
-  background-color: currentColor;
-  border: 0;
-} */
 
 .line1 {
   display: flex;
@@ -139,21 +124,6 @@ header .header-top {
   width: 25%;
   opacity: 1.25 !important;
 }
-
-
-/* .hor1 {
-  width: 25%;
-  margin: 10px 0 !important;
-  color: #18496b;
-  background-color: none !important;
-}
-
-.hor2 {
-  width: 25%;
-  margin: 10px 0 !important;
-  color: #fc721e;
-  background-color: none !important;
-} */
 
 .widthCard {
   width: 100% !important;
@@ -208,15 +178,7 @@ header .header-top {
   position: absolute;
   right: 0;
   top: 0;
-  -webkit-transition: all 300ms ease;
-  -moz-transition: all 300ms ease;
-  -ms-transition: all 300ms ease;
-  -o-transition: all 300ms ease;
-  transition: all 300ms ease;
 }
-
-
-/* Request a free quote page */
 
 .form-control1 {
   border: 0 !important;
@@ -802,6 +764,7 @@ video {
 .benCust {
   font-size: 14px;
   color: #18496b;
+  font-weight: bold;
 }
 
 .righCust {
@@ -815,4 +778,112 @@ video {
 
 .righCust li i {
   color: #18496b;
+}
+
+
+/* corporate car page */
+
+.page-banner2 {
+  background-image: url("../images/corporatecar.jpg");
+}
+
+.page-banner3 {
+  background-image: url("../images/airport.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.page-banner4 {
+  background-image: url("../images/carrent1.png");
+}
+
+.page-banner5 {
+  background-image: url("../images/safetycabs.jpg");
+  background-size: cover;
+}
+
+.bg8 {
+  background-color: #f1f1f1;
+}
+
+
+/* fleete page */
+
+.page-banner6 {
+  background-image: url("../images/2 (2).jpg");
+  background-size: cover;
+}
+
+
+/* careers page */
+
+.page-banner7 {
+  background-image: url("../images/career.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+
+/* quote page */
+
+.page-banner8 {
+  background-image: url("../images/quotation.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.controCust {
+  width: 95% !important;
+  padding: 10px !important;
+}
+
+.selCust {
+  width: 97.5% !important;
+  padding: 10px !important;
+}
+
+.areaCust {
+  width: 97.5% !important;
+  height: 100px;
+  resize: none;
+  color: #797979 !important;
+}
+
+.quoteCust input {
+  font-size: 14px;
+}
+
+.foCust {
+  background-color: #dcdbdb;
+  padding: 35px 30px;
+}
+
+.buttCust {
+  padding: 15px 25px;
+  background-color: #006db7;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  border-radius: 3px;
+  transition-duration: 0.4s;
+  transition-property: all;
+}
+
+.buttCust:hover {
+  background-color: rgb(45, 42, 42);
+  color: #fff;
+}
+
+
+/* contact us page */
+
+.page-banner9 {
+  background-image: url("../images/contactus.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.sizeFon1 i {
+  font-size: 16px;
+  color: #006db7 !important;
 }
